@@ -8,9 +8,9 @@ $(document).ready(function() {
         $('.flip').toggleClass('flip-active');
         if ($('.flip').hasClass('flip-active')) {
             $('.flip').addClass('fa-times');
-            $('.flip').removeClass('fa-bars');
+            $('.flip').removeClass('fa-volume-control-phone');
         } else {
-            $('.flip').addClass('fa-bars');
+            $('.flip').addClass('fa-volume-control-phone');
             $('.flip').removeClass('fa-times');
         }
     });
