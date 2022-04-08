@@ -12,6 +12,11 @@ a {
     text-decoration: none;
     color: black;
     text-align: center;
+    transition: .5s;
+}
+
+a:hover {
+    color: white;
 }
 
 .wrapper {
