@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .wrapper {
@@ -86,7 +86,7 @@ footer {
     border-radius: 50%;
     top: calc(100% - 100px);
     left: calc(100% - 100px);
-    background: linear-gradient(rgb(92, 92, 92), rgb(146, 181, 255));
+    background: linear-gradient(rgb(0, 0, 0), rgb(142, 142, 142));
     color: white;
     cursor: pointer;
 }
@@ -113,20 +113,20 @@ footer {
 .otherButton1 {
     top: calc(100% - 60px);
     left: calc(100% - 158px);
-    background: linear-gradient(rgb(92, 92, 92), rgb(146, 181, 255));
+    background: linear-gradient(rgb(47, 47, 47), rgb(142, 142, 142));
     z-index: 4;
 }
 
 .otherButton2 {
     top: calc(100% - 142px);
     left: calc(100% - 175px);
-    background: linear-gradient(rgb(92, 92, 92), rgb(146, 181, 255));
+    background: linear-gradient(rgb(94, 94, 94), rgb(142, 142, 142));
 }
 
 .otherButton3 {
     top: calc(100% - 180px);
     left: calc(100% - 100px);
-    background: linear-gradient(rgb(92, 92, 92), rgb(146, 181, 255));
+    background: linear-gradient(rgb(191, 191, 191), rgb(142, 142, 142));
 }
 
 .hidden {
