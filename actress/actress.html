@@ -5,65 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gudman Agancy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="actress.css">
 </head>
 
 <body>
     <div class="wrapper">
-
         <div class="content">
             <header>
                 <div class="container">
                     <nav>
-                        <a href="../index.html">LOGO</a>
+                        <a href="../index.html"><img class="logo" src="../images/logo.png" alt=""></a>
                         <a href="#">Alex Gudman</a>
                     </nav>
                 </div>
             </header>
+
+            <div class="container">
+            </div>
+
+            <button id="menuButton" class="button"><i class="fa fa-volume-control-phone flip" aria-hidden="true"></i></button>
+            <button id="home" class="otherButton1 hidden openMenu"><i class="fa fa-phone" aria-hidden="true"></i></button>
+            <button id="about" class="otherButton2 hidden openMenu"><i class="fa fa-envelope" aria-hidden="true"></i></i></button>
+            <button id="work" class="otherButton3 hidden openMenu"><i class="fa fa-share " aria-hidden="true"></i></button>
         </div>
-        <main>
-            <div class="container">
-                <input type="radio" name="Carrusel" id="Slider1" checked>
-                <input type="radio" name="Carrusel" id="Slider2">
-                <input type="radio" name="Carrusel" id="Slider3">
-
-                <div class="Carrusels">
-                    <div class="Carrusel"></div>
-                    <div class="Carrusel"></div>
-                    <div class="Carrusel"></div>
-
-                    <label for="Slider3" class="ArrowLeft Arrow1"><p>❮</p></label>
-                    <label for="Slider1" class="ArrowLeft Arrow2"><p>❮</p></label>
-                    <label for="Slider2" class="ArrowLeft Arrow3"><p>❮</p></label>
-
-                    <label for="Slider2" class="ArrowRight Arrow1"><p>❯</p></label>
-                    <label for="Slider3" class="ArrowRight Arrow2"><p>❯</p></label>
-                    <label for="Slider1" class="ArrowRight Arrow3"><p>❯</p></label>
+        <div class="footer">
+            <footer>
+                <div class="container">
+                    <p>tel : 1234556789</p>
                 </div>
-
-
-                <div class="Selectors">
-                    <label for="Slider1" class="Selector"></label>
-                    <label for="Slider2" class="Selector"></label>
-                    <label for="Slider3" class="Selector"></label>
-                </div>
-                <div class="button">
-                    <button>УЗНАТЬ БОЛЬШЕ</button>
-                </div>
-            </div>
-
-    </div>
-    </main>
-    <div class="footer">
-        <footer>
-            <div class="container">
-                <p>tel : 1234556789</p>
-            </div>
-        </footer>
-    </div>
-
-    </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="../index.js"></script>
 </body>
 
 </html>
