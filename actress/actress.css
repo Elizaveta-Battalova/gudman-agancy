@@ -34,11 +34,6 @@ a:hover {
     margin: auto;
 }
 
-h5,
-p {
-    color: white;
-}
-
 header {
     background: linear-gradient(rgb(163, 163, 163), white);
 }
