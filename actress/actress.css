@@ -334,6 +334,9 @@ footer {
         width: 100%;
     }
     video {
-        width: 80%;
+        width: 100%;
     }
+    .biography {
+    width: 100%;
+}
 }
