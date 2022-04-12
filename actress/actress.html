@@ -46,31 +46,81 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <h1>Евдокия Лаврухина</h1>
-                    <h2>Фильмография</h2>
-                    <ul>
-                        <li>Мистер Нокаут 2022. Наташа</li>
-                        <li>Женская версия. Комсомольский роман Мини-сериал, 2020</li>
-                        <li>Марлен Сериал, 2020. Светлана</li>
-                        <li>Вратарь Галактики 2020. болельщица на трибуне</li>
-                        <li>Огонь 2020. скромная подруга невесты</li>
-                    </ul>
-                    <video id="video_background" preload="auto" controls autoplay loop playsinline muted>
-                    <source src="../video/dunya-2_gUXzJM2B.mp4" type='video/mp4' />
-                </video>
-                    <h2>Биография</h2>
-                    <div class="biography">
-                        <p>Евдокия Павловна Лаврухина. Родилась 11 марта 1994 года.</p>
-                        <p>Российская актриса театра и кино. Евдокия Лаврухина родилась 11 марта 1994 года. В 2016 году окончила ГИТИС, мастерская В.А. Андреева. Актриса театра «Разные люди».</p>
-                        <p>С 2016 года начала сниматься в кино. Исполнила небольшие роли в лентах «Ольга», «Крыша мира», «Улица», «Склифосовский (7 сезон)», «Рая знает всё!», «ИП Пирогова», «Чёрное море», «Мистер нокаут» и др. Рост Евдокии Лаврухиной: 170
-                            сантиметров.
-                        </p>
+
+                    <div class="dropdown">
+                        <button class="dropdown-btn">
+                          связь
+                        </button>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="mailto:support@alexgudman.com?subject=Обращение">напишите нам</a></li>
+                                <li><a href="mailto:support@alexgudman.com?subject=Перезвоните мне">обратный звонок</a></li>
+
+                                <li><a href="tel:+74952273125" style="color: black !important;">+7 (495) 227-31-55</a></li>
+                            </ul>
+                        </div>
                     </div>
+                    <div class="icons">
+                        <div id="biografy-btn"><img src="../images/icons8-person-female-64.png" alt=""></div>
+                        <div id="filmography-btn"><img src="../images/icons8-clapperboard-64.png" alt=""></div>
+                        <div id="video-btn"><img src="../images/icons8-video-64.png" alt=""></div>
+                    </div>
+
+                    <div id="sidebar-biography">
+                        <div class="container">
+                            <div class="biography">
+                                <div class="sidebar-biography-btn" id="biography-sidebar-btn">
+                                    <img src="../images/icons8-close.svg" alt="">
+                                </div>
+                                <h2>Биография</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat eius modi quasi. Sequi culpa delectus ea adipisci. Sequi commodi perferendis impedit assumenda aliquam nemo atque, laborum eos quisquam, fugiat dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sidebar-filmography">
+                        <div class="container">
+                            <div class="filmography">
+                                <div class="sidebar-filmography-btn" id="filmography-sidebar-btn">
+                                    <img src="../images/icons8-close.svg" alt="">
+                                </div>
+                                <h2>Фильмография</h2>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sidebar-video">
+                        <div class="container">
+                            <div class="video">
+                                <div class="sidebar-video-btn" id="video-sidebar-btn">
+                                    <img src="../images/icons8-close.svg" alt="">
+                                </div>
+                                <h2>Видео</h2>
+                                <div class="video">
+                                    <video id="video_background" preload="auto" controls autoplay loop playsinline muted>
+                                            <source src="../video/dunya-2_gUXzJM2B.mp4" type='video/mp4' />
+                                        </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
                 </main>
-                <button id="menuButton" class="button"><i class="fa fa-volume-control-phone flip" aria-hidden="true"></i></button>
-                <button id="home" class="otherButton1 hidden openMenu"><i class="fa fa-phone" aria-hidden="true"></i></button>
-                <button id="about" class="otherButton2 hidden openMenu"><i class="fa fa-envelope" aria-hidden="true"></i></i></button>
-                <button id="work" class="otherButton3 hidden openMenu"><i class="fa fa-share " aria-hidden="true"></i></button>
             </div>
         </div>
         <div class="footer">
@@ -82,8 +132,8 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="../index.js"></script>
 </body>
 
