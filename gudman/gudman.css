@@ -71,8 +71,8 @@ img {
 .dropdown {
     position: fixed;
     z-index: 5;
-    top: 100px;
-    left: 50px;
+    bottom: 100px;
+    right: 50px;
     cursor: pointer;
 }
 
