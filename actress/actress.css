@@ -176,8 +176,8 @@ ul {
 .dropdown {
     position: fixed;
     z-index: 5;
-    top: calc(100% - 120px);
-    left: calc(100% - 100px);
+    bottom: 100px;
+    right: 50px;
     cursor: pointer;
 }
 
@@ -185,7 +185,6 @@ ul {
     background-color: rgb(0, 215, 215);
     border: none;
     border-radius: 50%;
-    padding: 5px;
     width: 50px;
     height: 50px;
     font-size: 36px;
@@ -195,6 +194,9 @@ ul {
     display: none;
     position: absolute;
     text-align: center;
+    animation-name: rubberEffect;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .dropdown-menu li {
@@ -215,6 +217,15 @@ ul {
     left: -198px;
     border: none;
     background: transparent;
+}
+
+@keyframes rubberEffect {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .footer {
@@ -245,8 +256,8 @@ footer {
 
 @media(max-width:992px) {
     .dropdown {
-        top: calc(100% - 119px);
-        left: calc(100% - 64px);
+        bottom: 80px;
+        right: 20px;
     }
     .icons img {
         width: 30px;

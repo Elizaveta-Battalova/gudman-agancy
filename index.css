@@ -61,8 +61,8 @@ img {
 .dropdown {
     position: fixed;
     z-index: 5;
-    top: calc(100% - 120px);
-    left: calc(100% - 100px);
+    bottom: 100px;
+    right: 50px;
     cursor: pointer;
 }
 
@@ -117,8 +117,8 @@ footer {
 
 @media(max-width:992px) {
     .dropdown {
-        top: calc(100% - 120px);
-        left: calc(100% - 60px);
+        bottom: 80px;
+        right: 20px;
     }
 }
 
