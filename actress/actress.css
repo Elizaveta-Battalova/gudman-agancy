@@ -245,7 +245,7 @@ footer {
 
 @media(max-width:992px) {
     .dropdown {
-        top: calc(100% - 161px);
+        top: calc(100% - 119px);
         left: calc(100% - 64px);
     }
     .icons img {
