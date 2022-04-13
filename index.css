@@ -123,9 +123,6 @@ footer {
 }
 
 @media(max-width:768px) {
-    img {
-        box-shadow: 0px 5px 10px 5px rgb(163, 163, 163);
-    }
     .logo {
         width: 80px;
         box-shadow: none;
