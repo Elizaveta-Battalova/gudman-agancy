@@ -251,6 +251,12 @@ footer {
     .icons img {
         width: 30px;
     }
+    .carousel {
+        width: 100%;
+    }
+    .icons {
+        width: 100%;
+    }
 }
 
 @media(max-width:768px) {
