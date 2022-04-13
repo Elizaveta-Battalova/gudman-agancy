@@ -210,8 +210,8 @@ ul {
 .dropdown-menu[data-expanded="true"] {
     display: block;
     position: absolute;
-    top: -32px;
-    left: -155px;
+    top: -63px;
+    left: -198px;
     border: none;
     background: transparent;
 }
