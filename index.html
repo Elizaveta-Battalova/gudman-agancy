@@ -17,7 +17,7 @@
                 <button class="dropdown-btn"><i class="fa fa-phone"></i></button>
                 <div class="dropdown-menu">
                     <ul>
-                        <li><a href="mailto:support@alexgudman.com?subject=Перезвоните мне">call back</a></li>
+                        <li id="callback-btn">callback</li>
 
                         <li><a href="mailto:support@alexgudman.com?subject=Обращение">напишите нам</a></li>
 
@@ -33,6 +33,20 @@
                     </nav>
                 </div>
             </header>
+            <div id="sidebar-callback">
+                <div class="container">
+                    <img class="sidebar-callback-btn" id="callback-sidebar-btn" src="./images/icons8-close.svg" alt="">
+                    <div class="form">
+                        <div class="ar_form">
+                            <p style="font-weight:bold">Мы вам перезвоним.</p>
+                            <form action="send.php" method="post">
+                                Ваше имя: <input type="text" name="first_name"><br> Телефон: <input type="text" name="email" required placeholder="+ (123) 456-78-90"><br>
+                                <input type="submit" name="submit" value="Да">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="container">
                 <div class="box">
