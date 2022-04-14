@@ -80,6 +80,9 @@ img {
     display: none;
     position: absolute;
     text-align: center;
+    animation-name: rubberEffect;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .dropdown-menu li {
@@ -95,11 +98,20 @@ img {
 
 .dropdown-menu[data-expanded="true"] {
     display: block;
-    position: absolute;
-    top: -32px;
-    left: -155px;
+    position: fixed;
+    bottom: 58px;
+    right: 100px;
     border: none;
     background: transparent;
+}
+
+@keyframes rubberEffect {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .footer {

@@ -17,6 +17,17 @@ dropdowns.forEach(dropdown => {
         }
     });
 });
+$(document).ready(function() {
+    $('#callback-btn').click(function() {
+        $('#sidebar-callback').toggleClass('visible');
+    });
+});
+
+$(document).ready(function() {
+    $('#callback-sidebar-btn').click(function() {
+        $('#sidebar-callback').toggleClass('visible');
+    });
+});
 
 $(document).ready(function() {
     $('#biografy-btn').click(function() {

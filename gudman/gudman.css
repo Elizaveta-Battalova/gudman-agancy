@@ -105,9 +105,9 @@ img {
 
 .dropdown-menu[data-expanded="true"] {
     display: block;
-    position: absolute;
-    top: -32px;
-    left: -155px;
+    position: fixed;
+    bottom: 58px;
+    right: 100px;
     border: none;
     background: transparent;
 }

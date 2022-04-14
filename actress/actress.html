@@ -18,7 +18,7 @@
                 <button class="dropdown-btn"><i class="fa fa-phone"></i></button>
                 <div class="dropdown-menu">
                     <ul>
-                        <li><a href="mailto:support@alexgudman.com?subject=Перезвоните мне">call back</a></li>
+                        <li id="callback-btn">callback</li>
 
                         <li><a href="mailto:support@alexgudman.com?subject=Обращение">напишите нам</a></li>
 
@@ -113,21 +113,41 @@
                         </div>
                     </div>
 
-
-
-
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-                </main>
+                    <div id="sidebar-callback">
+                        <div class="container">
+                            <div class="callback">
+                                <div class="sidebar-callback-btn" id="callback-sidebar-btn">
+                                    <img src="../images/icons8-close.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="form">
+                                <div class="ar_form">
+                                    <p style="font-weight:bold">Оставьте Ваш номер телефона и имя. Мы вам перезвоним.</p>
+                                    <form action="send.php" method="post">
+                                        Ваше имя: <input type="text" name="first_name"><br> Телефон: <input type="text" name="email" required placeholder="+ (123) 456-78-90"><br>
+                                        <input type="submit" name="submit" value="Отправить">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
+
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+            </main>
         </div>
-        <div class="footer">
-            <footer>
-                <div class="container">
-                    <p style="color: black;">tel : 1234556789</p>
-                </div>
-            </footer>
-        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="container">
+                <p style="color: black;">tel : 1234556789</p>
+            </div>
+        </footer>
+    </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
