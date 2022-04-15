@@ -100,7 +100,8 @@ img {
 }
 
 .dropdown-btn {
-    background-color: rgb(0, 215, 215);
+    background-color: rgb(154, 226, 202);
+    ;
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -123,7 +124,7 @@ img {
     font-size: 20px;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(0, 215, 215);
+    background-color: rgb(154, 226, 202);
     border: 3px solid red;
     border-radius: 15%;
     opacity: .7;
@@ -132,8 +133,8 @@ img {
 .dropdown-menu[data-expanded="true"] {
     display: block;
     position: absolute;
-    top: -63px;
-    left: -198px;
+    top: -43px;
+    left: -171px;
     border: none;
     background: transparent;
 }
