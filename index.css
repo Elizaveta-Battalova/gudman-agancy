@@ -123,9 +123,9 @@ img {
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
     font-size: 20px;
     padding: 5px;
-    margin: 5px;
+    margin-top: 20px;
     background-color: rgb(154, 226, 202);
-    border: 3px solid rgb(214, 93, 93);
+    border: 3px solid black;
     border-radius: 15%;
     opacity: .7;
 }
@@ -133,7 +133,7 @@ img {
 .dropdown-menu[data-expanded="true"] {
     display: block;
     position: absolute;
-    top: -43px;
+    top: -71px;
     left: -171px;
     border: none;
     background: transparent;
