@@ -125,7 +125,7 @@ img {
     padding: 5px;
     margin: 5px;
     background-color: rgb(154, 226, 202);
-    border: 3px solid red;
+    border: 3px solid rgb(214, 93, 93);
     border-radius: 15%;
     opacity: .7;
 }
